@@ -1,12 +1,14 @@
-import React from "react";
-import "./Home.css";
+import React from 'react';
+import Navbar from './Navbar';
+import './Home.css';
 
 export default function Home() {
   return (
     <div>
-      <h1>
-       Home
-      </h1>
+      <Navbar />
+      <h2>
+        11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+      </h2>
     </div>
   );
 }
