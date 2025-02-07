@@ -1,12 +1,12 @@
 import React from "react";
-import "./Drawing.css";
+import "./About.css";
 import Navbar from './Navbar';
 
-export default function Drawing() {
+export default function About() {
   return (
     <div>
       <h1>
-        Drawing
+        about
       </h1>
     </div>
   );
