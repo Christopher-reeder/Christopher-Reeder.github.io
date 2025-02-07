@@ -15,6 +15,20 @@ function Home() {
             What would you like to explore?
           </p>
         </section>
+        <div className="button-container">
+          <button>
+            <img src="1" />
+            <br /><br />Programs
+          </button>
+          <button>
+            <img src="2" />
+            <br /><br />About
+          </button>
+          <button className="image-button">
+            <img src="3" />
+            <br /><br />Drawings
+          </button>
+        </div>
       </div>
   );    
 }
