@@ -6,10 +6,35 @@
     padding: 0rem 2rem;
 }
 
+.navbar-logo {
+    width: 4rem;
+    transition: transform 0.2s ease;
+}
+
+.navbar-logo:hover {
+    transform: rotate(180deg);
+}
+
 .navbar-menu {
     display: flex;
     gap: 4rem;
     margin-right: 5rem;
     font-size: 18px;
     list-style: none ;
+}
+
+.navbar-menu li {
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-menu li:hover {
+    text-decoration: underline;
+    color: #000000;
+    cursor: pointer;
+}
+
+.navbar-menu li.active {
+    color: #0b1c65;
+    text-decoration: underline;
 }

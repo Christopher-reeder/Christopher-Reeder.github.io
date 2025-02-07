@@ -24,7 +24,7 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <a href="#1">
-                <img src='??' onClick={goToHome} alt="logo"></img>
+                <img src='/images/logo.png' onClick={goToHome} className='navbar-logo' alt="logo"></img>
             </a>
             <ul className='navbar-menu'>
                 <li onClick={goToHome} className={location.pathname === '/' ? 'active' : ''}>Home</li>
