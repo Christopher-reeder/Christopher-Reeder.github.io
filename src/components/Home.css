@@ -1,6 +1,17 @@
 .button-container {
     display: flex;
-    gap: 15rem; 
+    gap: 10rem; 
     justify-content: center;
-    margin-top: 3rem;
+    margin-top: 25px;
+}
+
+.image-button {
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.image-button img {
+    width: 10rem;
 }

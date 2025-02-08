@@ -16,16 +16,16 @@ function Home() {
           </p>
         </section>
         <div className="button-container">
-          <button>
-            <img src="1" />
+          <button className="image-button">
+            <img src="/images/programing-icon.png" alt="Programing button" />
             <br /><br />Programs
           </button>
-          <button>
-            <img src="2" />
-            <br /><br />About
-          </button>
           <button className="image-button">
-            <img src="3" />
+            <img src="/images/about-icon.png" alt="About button" />
+            <br /><br />About
+          </button >
+          <button className="image-button">
+            <img src="/images/drawing-icon.png" alt="Image button" />
             <br /><br />Drawings
           </button>
         </div>
