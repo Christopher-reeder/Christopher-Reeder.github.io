@@ -5,6 +5,20 @@ import { useNavigate } from 'react-router-dom';
 
 
 function Home() {
+  const navigate = useNavigate();
+
+  const goToAbout = () => {
+    navigate('/about');
+  };
+
+  const goToProgramming = () => {
+    navigate('/Programming');
+  };
+
+  const goToDrawing = () => {
+    navigate('/Drawing');
+  };
+  
     return (
       <div>
         <Navbar />
@@ -17,15 +31,15 @@ function Home() {
         </section>
         <div className="button-container">
           <button className="image-button">
-            <img src="/images/programing-icon.png" alt="Programing button" />
+            <img src="/images/programing-icon.png" alt="Programming button" onClick={goToProgramming} />
             <br /><br />Programs
           </button>
           <button className="image-button">
-            <img src="/images/about-icon.png" alt="About button" />
+            <img src="/images/about-icon.png" alt="About button" onClick={goToAbout} />
             <br /><br />About
-          </button >
+          </button>
           <button className="image-button">
-            <img src="/images/drawing-icon.png" alt="Image button" />
+            <img src="/images/drawing-icon.png" alt="Image button" onClick={goToDrawing} />
             <br /><br />Drawings
           </button>
         </div>
