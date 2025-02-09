@@ -16,7 +16,7 @@ export default function About() {
 
         <div className="about-text">
           <h1>Christopher Kade Reeder</h1>
-          <p>
+          <p style={{ borderBottom: '2px solid', paddingBottom: '2rem' }}>
             Hello! I'm <strong>Christopher Kade Reeder</strong>, a Computing
             Science major at SFU. I began my programming journey at the age of 20
             and have been drawing since I was 15. While my main focus is on
@@ -25,7 +25,7 @@ export default function About() {
           </p>
 
           <h2>Skills & Tools</h2>
-          <ul>
+          <ul style={{ borderBottom: '2px solid', paddingBottom: '2rem' }}>
             <li>
               <strong>Programming Languages:</strong> C/C++, Python, Java,
               Assembly
