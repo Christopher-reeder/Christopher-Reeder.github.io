@@ -2,7 +2,7 @@
     display: flex;
     gap: 10rem; 
     justify-content: center;
-    margin-top: 25px;
+    margin-top: 2rem;
 }
 
 .image-button {
@@ -14,4 +14,10 @@
 
 .image-button img {
     width: 10rem;
+    transition: transform 0.2s ease;
+}
+
+.image-button img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
