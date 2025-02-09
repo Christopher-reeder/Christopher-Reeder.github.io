@@ -5,19 +5,19 @@ import './Drawing.css';
 function Drawing() {
   const artworks = [
     {
-      imageSrc: '111',
+      imageSrc: '/images/drawing/1.jpg',
       alt: '1',
       description: `
       1`,
     },
     {
-      imageSrc: '222',
+      imageSrc: '/images/drawing/2.jpg',
       alt: '2',
       description: `
       2`,
     },
     {
-      imageSrc: '333',
+      imageSrc: '/images/drawing/3.jpg',
       alt: '3',
       description: `
       3`,      

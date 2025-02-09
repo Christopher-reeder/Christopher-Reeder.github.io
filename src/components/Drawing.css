@@ -27,3 +27,29 @@
     margin-top: 5rem;
     padding: 0 5rem;
 }
+
+.artworks h3 {
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+    white-space: pre-line;
+}
+
+.artwork-item {
+display: flex;
+margin-bottom: 4rem;
+}
+
+.artwork-image img {
+width: 500px;
+border-radius: 8px;
+}
+
+.artwork-description {
+padding: 0 4rem;
+white-space: pre-line;
+margin-top: -2rem;
+}
+
+.artwork-description p {
+font-size: 20px;
+}
