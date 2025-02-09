@@ -1,0 +1,56 @@
+.sns-links {
+    text-align: center;
+
+  }
+
+.sns-links h2 {
+    padding: 1rem;
+    font-size: 36px;
+}
+
+.sns-buttons {
+    border-bottom: 2px solid white;
+    margin: 0rem 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.sns-buttons a {
+    margin: 0 1rem;
+    color: #a8eae1;
+    border: 1px solid #000000;
+    padding: 8px 50px;
+    border-radius: 6px;
+    background-color: #43646a;
+}
+
+.artworks {
+    margin-top: 5rem;
+    padding: 0 5rem;
+}
+
+.artworks h3 {
+    margin-top: -2rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.artwork-item {
+display: flex;
+margin-bottom: 4rem;
+}
+
+.artwork-image img {
+width: 500px;
+border-radius: 8px;
+}
+
+.artwork-description {
+padding: 0 4rem;
+white-space: pre-line;
+margin-top: -2rem;
+}
+
+.artwork-description p {
+font-size: 20px;
+}
