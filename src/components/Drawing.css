@@ -1,9 +1,11 @@
 .sns-links {
     text-align: center;
+
   }
 
 .sns-links h2 {
     padding: 1rem;
+    font-size: 36px;
 }
 
 .sns-buttons {
@@ -17,6 +19,7 @@
     color: #a8eae1;
     border: 1px solid #000000;
     padding: 8px 50px;
+    border-radius: 6px;
     background-color: #43646a;
 }
 
