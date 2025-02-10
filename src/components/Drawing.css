@@ -1,7 +1,6 @@
 .sns-links {
     text-align: center;
-
-  }
+}
 
 .sns-links h2 {
     padding: 1rem;
@@ -42,21 +41,36 @@
 }
 
 .artwork-item {
-display: flex;
-margin-bottom: 4rem;
+    display: flex;
+    margin-bottom: 4rem;
+    cursor: pointer;
 }
 
 .artwork-image img {
-width: 500px;
-border-radius: 8px;
+    width: 500px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.artwork-image img:hover {
+    transform: scale(1.05);
 }
 
 .artwork-description {
-padding: 0 4rem;
-white-space: pre-line;
-margin-top: -2rem;
+    padding: 0 4rem;
+    white-space: pre-line;
+    margin-top: -2rem;
 }
 
 .artwork-description p {
-font-size: 20px;
+    font-size: 20px;
 }
+
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+}
+
+
+
