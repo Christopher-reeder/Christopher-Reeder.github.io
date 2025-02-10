@@ -1,0 +1,43 @@
+.github-link {
+    text-align: center;
+  }
+
+.github-link h2 {
+    padding: 1rem;
+    font-size: 36px;
+}
+
+.github-button {
+    border-bottom: 2px solid white;
+    margin: 0rem 3rem;
+    padding-bottom: 2.5rem;
+}
+
+.github-button a {
+    margin: 0 1rem;
+    color: #a8eae1;
+    border: 1px solid #000000;
+    padding: 8px 100px;
+    border-radius: 6px;
+    background-color: #43646a;
+}
+
+.P-body {
+    margin-top: 5rem;
+    padding: 0 5rem;
+}
+
+.code-item {
+    display: flex;
+    align-items: center;
+    padding: 1rem 5rem;
+}
+
+.code-description {
+    padding: 0rem 3rem;
+    white-space: pre-line;
+}
+
+.code-description p {
+    font-size: 18px;
+}
