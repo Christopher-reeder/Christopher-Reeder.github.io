@@ -1,14 +1,25 @@
-import React from "react";
-import "./Programming.css";
+import React from 'react';
 import Navbar from './Navbar';
+import './Programming.css';
 
-export default function Programming() {
+function Programming() {
   return (
     <div>
       <Navbar />
-      <h1>
-        Programming
-      </h1>
+      <div className="github-link">
+        <h2>My Computer Science Portfolio</h2>
+        <div className="github-button">
+          <a href="123" target="_blank" rel="noreferrer">GitHub</a>
+        </div>
+      </div>
+      <div className="P-body">
+        <h3>
+          {`I'm still in the early stages of learning, but I enjoy coding and finding the process of problem-solving to be exciting and rewarding. 
+          Below are the programming languages I have learned so far.`}
+        </h3>
+      </div>
     </div>
   );
 }
+
+export default Programming;
