@@ -27,11 +27,38 @@
     padding: 0 5rem;
 }
 
+.P-body h3 {
+    margin-top: -2rem;
+    white-space: pre-line;
+}
+
 .code-item {
     display: flex;
     align-items: center;
     padding: 1rem 5rem;
 }
+
+.code-image {
+    width: 8rem;
+    height: 8rem;
+    object-fit: contain;
+}
+
+.code-button a {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    font-size: 28px;
+    color: #a8eae1;
+    border: 1px solid #000000;
+    padding: 7rem;
+    border-radius: 6px;
+    background-color: #43646a;
+}
+
 
 .code-description {
     padding: 0rem 3rem;
