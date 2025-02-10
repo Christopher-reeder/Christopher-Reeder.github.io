@@ -62,13 +62,13 @@ function Drawing() {
       <div className="sns-links">
         <h2>My Art Portfolio</h2>
         <div className="sns-buttons">
-          <a>
+          <a href="https://www.instagram.com/creame724/" target="_blank" rel="noreferrer">
             Instagram
           </a>
-          <a>
+          <a href="https://www.pixiv.net/users/34876457/illustrations" target="_blank" rel="noreferrer">
             Pixiv
           </a>
-          <a>
+          <a href="https://www.artstation.com/ecream4" target="_blank" rel="noreferrer">
             ArtStation
           </a>
         </div>
@@ -78,9 +78,9 @@ function Drawing() {
         <h3>
           {`I enjoy drawing fan art for games and anime, but what I love most is creating concept art for the original stories I’ve envisioned. 
           Below are the three projects I have developed and illustrated the most.`}
-        </h3>     
-
-        {artworks.map(getArtwork)}   
+        </h3>
+        
+        {artworks.map(getArtwork)}
       </div>
       
     </div>
