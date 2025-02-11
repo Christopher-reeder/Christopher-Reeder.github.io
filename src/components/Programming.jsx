@@ -72,7 +72,7 @@ function Programming() {
       <div className="github-link">
         <h2>My Computer Science Portfolio</h2>
         <div className="github-button">
-          <a href="" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/Christopher-reeder" target="_blank" rel="noreferrer">GitHub</a>
         </div>
       </div>
       <div className="P-body">

@@ -86,13 +86,13 @@ function Drawing() {
       <div className="sns-links">
         <h2>My Art Portfolio</h2>
         <div className="sns-buttons">
-          <a>
+          <a  href="https://www.instagram.com/creame724/" target="_blank" rel="noreferrer">
             Instagram
           </a>
-          <a>
+          <a  href="https://www.pixiv.net/users/34876457/illustrations" target="_blank" rel="noreferrer">
             Pixiv
           </a>
-          <a>
+          <a  href="https://www.artstation.com/ecream4" target="_blank" rel="noreferrer">
             ArtStation
           </a>
         </div>
