@@ -62,7 +62,7 @@ function Modal({ selectedArtwork, closeModal }) {
   return (
     <div className="modal-overlay" onClick={closeModal}>
       <div className="modal-content" onClick={function (e) { e.stopPropagation(); }}>
-        <button className="close-btn" onClick={closeModal}>x</button>
+        <button className="close-btn" onClick={closeModal}>&times;</button>
         <img src={selectedArtwork.imageSrc} alt={selectedArtwork.alt} />
       </div>
     </div>
