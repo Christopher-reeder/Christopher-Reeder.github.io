@@ -19,7 +19,13 @@
     border: 1px solid #000000;
     padding: 8px 100px;
     border-radius: 6px;
-    background-color: #43646a;
+    background-color: #657083;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.github-button a:hover {
+    background-color: #b4b4d2;
+    color: #4b467f;
 }
 
 .P-body {
@@ -27,10 +33,45 @@
     padding: 0 5rem;
 }
 
+.P-body h3 {
+    margin-top: -2rem;
+    text-align: center;
+    white-space: pre-line;
+}
+
 .code-item {
     display: flex;
     align-items: center;
     padding: 1rem 5rem;
+}
+
+.code-button a {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    font-size: 28px;
+    color: #a8eae1;
+    border: 1px solid #000000;
+    padding: 7rem;
+    border-radius: 6px;
+    background-color: #657083;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.code-button a:hover {
+    background-color: #b4b4d2;
+    color: #4b467f;
+}
+
+.code-image {
+    
+    width: 8rem;
+    height: 8rem;
+    object-fit: contain;
 }
 
 .code-description {

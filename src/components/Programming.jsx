@@ -5,9 +5,9 @@ import './Programming.css';
 function Programming() {
   const codes = [
     {
-      link: '11',
+      link: 'https://github.com/Christopher-reeder/Play-List',
       programLanguage: 'C++',
-      imageSrc: '1',
+      imageSrc: '/images/C++.png',
       description: `Name: Playlist Manager
 
       Date: 2024/09/15
@@ -16,9 +16,9 @@ function Programming() {
       Play List is a C++ console application for managing a music playlist. Users can add, remove, swap, and view songs, with each entry storing details like title, artist, and duration. The program utilizes object-oriented programming principles with separate Song and PlayList classes to handle data efficiently. It features dynamic data management, user input validation, and structured menu-driven interaction, demonstrating proficiency in C++ application development.`,
     },
     {
-      link: '22',
+      link: 'https://github.com/Christopher-reeder/Mario-Game',
       programLanguage: 'Python',
-      imageSrc: '2',
+      imageSrc: '/images/python.png',
       description: `Name: Mario Game
 
       Date: 2023/11/26
@@ -27,9 +27,9 @@ function Programming() {
       Mario Game is a maze game that simulates a simple grid-based movement system. Users navigate Mario through a maze while avoiding obstacles and collecting treasures. The game generates a maze from an input file, places Mario at a starting position, and assigns an exit gate at the farthest possible location. The player interacts through console commands to move Mario, and the game updates in real-time based on movement and interactions with obstacles. The project demonstrates structured programming, file handling, and grid-based game logic implementation.`,
     },
     {
-      link: '33',
+      link: 'https://github.com/Christopher-reeder/Important-Day-Manager',
       programLanguage: 'Java',
-      imageSrc: '3',
+      imageSrc: '/images/java.png',
       description: `Name: Important Day Manager
 
       Date: 2025/01/22
@@ -38,9 +38,9 @@ function Programming() {
       Important Days Tracker is a Java-based console application for managing significant dates. Users can add, remove, list, and search for important days, each recorded with a name, date, and description. The program utilizes an ImportantDayManager to handle data storage and retrieval, providing an interactive command-line interface for user input. This project demonstrates structured programming, object-oriented design, and efficient data management in Java.`,
     },
     {
-      link: '44',
+      link: 'https://github.com/Christopher-reeder/Christopher-Reeder.github.io',
       programLanguage: 'JavaScript',
-      imageSrc: '4',
+      imageSrc: '/images/java-script.png',
       description: `Name: Portfolio Website
 
       Date: 2025/02/05
@@ -72,7 +72,7 @@ function Programming() {
       <div className="github-link">
         <h2>My Computer Science Portfolio</h2>
         <div className="github-button">
-          <a href="" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://github.com/Christopher-reeder" target="_blank" rel="noreferrer">GitHub</a>
         </div>
       </div>
       <div className="P-body">

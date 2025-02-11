@@ -19,7 +19,7 @@
     border: 1px solid #000000;
     padding: 8px 50px;
     border-radius: 6px;
-    background-color: #43646a;
+    background-color: #657083;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
@@ -98,8 +98,21 @@
     position: absolute;
     top: 10px;
     right: 15px;
-    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
     cursor: pointer;
     color: black;
-    border-radius: 8px;
+    border: none;
+    background: transparent 50%;
+    border-radius: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+    background-color: rgba(255, 255, 255, 0.7);
 }
